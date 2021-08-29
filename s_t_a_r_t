@@ -1,0 +1,3 @@
+#!/bin/bash
+/opt/firebird/bin/isql -q -u SYSDBA -p 11031 -i /opt/firebird/solarsys/request.sql -o /tmp/sql-out.text /opt/firebird/solarsys/solarsys.fdb
+./index.execute

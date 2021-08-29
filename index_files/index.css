@@ -1,0 +1,88 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  overflow-x:hidden;
+}
+
+div.sidebar {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 8px;
+  z-index: 1;
+}
+
+div.sidebar-list {
+  scrollbar-color: #4d4d4d #000;
+  scrollbar-width: thin;
+  min-height: 16px;
+  width: inherit;
+}
+
+div.sidebar-list-row {
+  display: flex;
+  height: 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img.sidebar-list-row-icon {
+  width: 32px;
+}
+
+div.sidebar-list-row-name {
+  color: wheat;
+  padding-left: 8px;
+  padding-top: 6px;
+}
+
+div.sidebar-buttonhide {
+  padding-left: 10px;
+  height: 23px;
+  color: wheat;
+  cursor: pointer;
+}
+
+div.properties {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  right: 0px;
+}
+
+div.properties-buttonhide {
+padding-right: 10px;
+  height: 23px;
+  color: wheat;
+  cursor: pointer;
+}
+
+div.properties-list { 
+  width: 100%;
+}
+
+div.properties-list-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.properties-list-row-key {
+  color: wheat;
+  display: flex;
+}
+
+div.properties-list-row-value {
+  color: wheat;
+  display: flex;
+  text-align: right;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
